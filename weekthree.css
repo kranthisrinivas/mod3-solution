@@ -1,0 +1,47 @@
+.content-cell {
+  background-color: #85a392;
+  margin-bottom: 15px;
+  padding: 10px 15px;
+}
+.nav{
+  margin-left:50px;
+  margin-right: 50px;
+}
+#navbarTogglerDemo02{
+ text-align: center;
+ background-color: #eff3c6;
+}
+h1{
+  padding-left: 100px;
+  font-size:130%;
+}
+h3{
+  color:black;
+  text-transform: uppercase;
+  font-size:130%;
+}
+.navbar-toggler{         /*for menu visible*/
+
+}
+.navbar-brand{
+  color: black;
+  font-family: 'Poppins', sans-serif;
+  font-size:140%;
+  font-weight: bold;
+}
+h3{
+  font-family: 'Poppins', sans-serif;
+}
+.content-cell h2 {
+  margin-top: -5px;
+}
+@media(min-width: 576px){
+#boom{
+  visibility: hidden;
+}
+}
+@media(max-width: 575px){
+#boom{
+  visibility:auto;
+}
+}
